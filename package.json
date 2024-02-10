@@ -22,7 +22,8 @@
     "url": "^0.11.3"
   },
   "scripts": {
-    "start": "NODE_ENV=dev nodemon src/server.js"
+    "start": "NODE_ENV=dev nodemon src/server.js",
+    "prod-start": "NODE_ENV=prod nodemon src/server.js"
   },
   "type": "module"
 }
